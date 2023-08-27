@@ -14,9 +14,9 @@ sudo snap install microk8s --classic
 
 # Basic permissions and settings
 ```
-sudo usermod -a -G microk8s tikejhya
+sudo usermod -a -G microk8s nullbr41n
 sudo microk8s kubectl config view --raw > $HOME/.kube/config
-sudo chown -R tikejhya ~/.kube
+sudo chown -R nullbr41n ~/.kube
 newgrp microk8s
 ```
 
