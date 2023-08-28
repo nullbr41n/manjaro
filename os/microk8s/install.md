@@ -38,3 +38,8 @@ sudo snap install helm --classic
 
 # microk8s enable localstorage
 `microk8s enable hostpath-storage`
+
+
+# Working reference
+
+py-image-dedup-k8s[https://github.com/nullbr41n/py-image-dedup-k8s]
